@@ -2,7 +2,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class PinballSlotMachine {
-    private static final String[] SYMBOLS = {"Cherry", "Orange", "Plum", "Bell", "Bar", "Seven"};
+    private static final String[] SYMBOLS = {"CHERRY", "BAR", "BARBAR", "BARBARBAR", "7", "DOUBLE DIAMOND"};
     private static final int[] PAYOUTS = {2, 3, 4, 5, 10, 50}; // Payouts for each symbol
     
     private static final int INITIAL_BALANCE = 100;
@@ -88,3 +88,4 @@ public class PinballSlotMachine {
         game.play();
     }
 }
+
